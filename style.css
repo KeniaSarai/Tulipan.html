@@ -1,0 +1,101 @@
+/* Al colocar el elemento utilizado de HTML se cambiara todo lo que este dentro
+de ese elemento */
+
+body {
+    /* Color */
+    background-color:#ecdac1 ;
+    font-size: 18px;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-family: cursive;
+    font-size: 100px;
+}
+
+
+h3 {
+    /* color de texto */
+    color: darksalmon;
+    /* Llamamos a la tipografía después de haberla puesto en HTML */
+    font-family: "Lugrasimo", cursive;
+    margin: 0px 0px 0px 100px;
+}
+
+p {
+    color: rgb(75, 75, 13);
+    font-family: "Playfair Display", serif;
+    /* TEXT-ALING -posición del texto en la página */
+    text-align: justify;
+    /* Alinear el texto: arriba, derecha, abajo, izquierda */
+    margin: 30px 100px 30px 100px;
+}
+
+ol {
+    color: brown;
+}
+
+/* Al llamar a BANNER Se modifica la imagen en donde colocamos este elemento */
+.banner {
+    width: 90%;
+    /* BORDER-RADIUS - bordes redondeados */
+    border-radius: 25px;
+}
+
+/* Al llamar a IMG se modifican todas las imágenes en conjunto */
+img {
+    /* Cambiar tamaño de imágenes */
+    /* WIDTH - anchura de la imagen - pixeles (px) y porcentaje (%)*/
+    width: 20%;
+}
+
+/* Para modificar un CSS de un elemento en particular HTML, osignamos una clase (class)
+y eso le llamamos en CSS con un punto (.) antes del */
+.imagen3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+/* Para modificar CSS se utilizan las clases y para redireccionar en HTML id */
+
+/* Editar el div del menú (caja en donde se encuentran las anclas)*/
+.menu {
+   background-color: cornsilk;
+    /* Div flrexible para moverse con los elementos */
+    display: flex;
+    flex-direction: column;
+    /* Alinea items de forma centrada */
+    align-items: center;
+}
+
+/* Anclas del menú */
+a {
+    /* color de texto */
+    color: darkcyan;
+    /* quitar viñetas */
+    text-decoration: none;
+    font-size: 16px;
+    /* anclas como botones */
+    background-color: rgb(227, 177, 49);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    background-color: rgb(220, 128, 8);
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagencontexto {
+    width: 30%;
+    /* margin-right (margen de un lado,  */
+    margin-right: 1px;
+    margin-left: 500px;
+}
